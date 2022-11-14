@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    width: 1253px;
+    height: 678px;
+
+    background: #1C1C1C;
+}
+
+#box1 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 61px;
+    top: 64px;
+
+    background: #ECFDF5;
+}
+#rect2{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+
+    background: #273549;
+    border-radius: 6px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #5DEF92;
+}
+
+#rect1{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+
+    background: #273549;
+    border-radius: 6px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #5DEF92;
+}
+hr.new1{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+
+    border: 1px solid #D5D4D8;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+
+    background: #10B981;
+    border-radius: 6px;
+    /* shadow/sm */
+    border: 2px solid #D5D4D8 ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    /* text-base/leading-6/font-medium */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+     /* white */
+     color: #FFFFFF;
+      /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    }
+p{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 205px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    color: #6B7280;
+}
+h1{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.05em;
+
+    /* night */
+
+    color: #2B283A;
+}
+#box2{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 642px;
+    top: 64px;
+    
+    background: #ECFDF5;
+
+} 
